@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#33CC99">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/cancel"
+            android:textColor="#FF3300"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/confirm"
+            android:textColor="#006600"
+            android:textStyle="bold"
+            android:typeface="serif"
+            tools:ignore="RelativeOverlap" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#778899">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/edit_text"
+                android:gravity="center"
+                android:text="@string/info_customer"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/enter_name"
+                style="@android:style/Widget.DeviceDefault.Light.EditText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/enter_name"
+                android:inputType="textAutoComplete" />
+
+            <EditText
+                android:id="@+id/enter_address"
+                style="@android:style/Widget.DeviceDefault.Light.EditText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/enter_address"
+                android:inputType="textAutoComplete" />
+
+            <EditText
+                android:id="@+id/enter_phone"
+                style="@android:style/Widget.DeviceDefault.Light.EditText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/enter_phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/enter_email"
+                style="@android:style/Widget.DeviceDefault.Light.EditText"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/edit_text"
+                android:gravity="center"
+                android:text="@string/form_payment"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <RadioGroup
+                android:id="@+id/rdg_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_cash_payment"
+                    style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cash_payment"
+                    android:typeface="serif" />
+
+                <RadioButton
+                    style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delay_payment"
+                    android:typeface="serif" />
+
+                <RadioButton
+                    style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_payment"
+                    android:typeface="serif" />
+
+                <RadioButton
+                    style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cart_payment"
+                    android:typeface="serif" />
+
+                <RadioButton
+                    style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/office_payment"
+                    android:typeface="serif" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

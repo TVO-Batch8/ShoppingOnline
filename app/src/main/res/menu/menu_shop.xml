@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ShopActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="101"
+        android:actionLayout="@layout/item_cart"
+        android:title="@string/action_cart"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="102"
+        android:title="@string/history"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="103"
+        android:title="@string/help"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="104"
+        android:title="@string/contact"
+        android:showAsAction="never"/>
+</menu>

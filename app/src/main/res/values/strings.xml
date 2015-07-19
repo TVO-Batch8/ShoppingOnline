@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Shopping</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_cart">Giỏ hàng</string>
+    <string name="search_hint">Tìm kiếm sản phẩm</string>
+    <string name="search_label">Tìm sản phẩm</string>
+    
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="description">Error image</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loading">Đang tải dữ liệu, vui lòng đợi…</string>
+
+    <string name="buy">Đặt mua</string>
+    <string name="product">Sản phẩm</string>
+    <string name="price">Giá</string>
+    <string name="quantity">Số lượng</string>
+    <string name="total_price">Tổng tiền</string>
+    <string name="payment">Thanh toán</string>
+    <string name="date_payment">Ngày mua</string>
+
+    <string name="choose_quantity">Số lượng sản phẩm</string>
+
+    <string name="delete_pro">Xóa sản phẩm</string>
+    <string name="delete_all_pro">Xóa tất cả sản phẩm</string>
+
+    <string name="enter_name">Tên khách hàng</string>
+    <string name="enter_address">Địa chỉ</string>
+    <string name="enter_phone">Số điện thoại</string>
+    <string name="enter_email">Email</string>
+    <string name="info_customer">Thông tin khách hàng</string>
+
+    <string name="form_payment">Hình thức thanh toán</string>
+    <string name="live_payment">Thanh toán trực tiếp</string>
+    <string name="delay_payment">Thanh toán chậm trả</string>
+    <string name="cart_payment">Thanh toán bằng thẻ tín dụng</string>
+    <string name="office_payment">Chuyển qua đường bưu điện</string>
+    <string name="cash_payment">Trả tiền mặt khi giao hàng</string>
+    
+    <string name="confirm">Xác nhận</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="categories">Danh mục</string>
+    <string name="customer">Khách hàng</string>
+    <string name="history">Lịch sử mua hàng</string>
+    <string name="contact">Liên hệ</string>
+    <string name="help">Trợ giúp</string>
+
+</resources>

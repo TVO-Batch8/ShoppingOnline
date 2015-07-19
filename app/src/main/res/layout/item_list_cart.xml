@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_cart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_margin="5dp"
+    android:background="@drawable/border_layout"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txt_name_cart"
+        style="@android:style/TextAppearance.Widget.TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/txt_price_cart"
+        style="@android:style/TextAppearance.Widget.TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:typeface="serif" />
+
+    <Spinner
+        android:id="@+id/sp_cart"
+        style="@android:style/Widget.DropDownItem.Spinner"
+        android:background="@android:drawable/btn_dropdown"
+        android:entries="@array/quantity_product"
+        android:prompt="@string/choose_quantity"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/txt_total_price_cart"
+        style="@android:style/TextAppearance.Widget.TextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:typeface="serif" />
+</LinearLayout>

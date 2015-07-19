@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/search_hint"
+    android:label="@string/search_label"
+    android:searchMode="queryRewriteFromData"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:voiceLanguageModel="web_search"
+    android:voiceLanguage="en|vi"
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer">
+
+</searchable>
